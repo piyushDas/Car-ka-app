@@ -1,0 +1,52 @@
+.hc-buyer-ad-item{
+	width: 300px;
+	background: #fff;
+  box-shadow: 1px 1px 5px rgba(96, 125, 139, 0.65);
+  margin: 15px;
+  border-radius: 10px;
+	.ad-image{
+		img{
+			width: 100%;
+		}
+	}
+	.ad-description{
+    padding: 15px;
+    // display: none;
+    .ad-title{
+      color: #2196F3;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .posted-on {
+      display: flex;
+      color: #9E9E9E;
+      font-size: 13px;
+      margin-top: 5px;
+      img{
+        height: 15px;
+        margin-right: 5px;
+      }
+    }
+  }
+  .feature-box{
+    display: flex;
+    // margin-top: 10px;
+    >div{
+      display: flex;
+      padding: 10px;
+      font-size: 13px;
+      align-items: center;
+      color: #607D8B;
+      img{
+        height: 20px;
+        margin-right: 5px;
+      }
+    }
+    & :first-of-type{
+      padding-left: 0;
+    }
+  }
+  .pricing{
+    color: #607D8B;
+  }
+}

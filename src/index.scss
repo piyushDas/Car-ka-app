@@ -1,0 +1,36 @@
+@import 'app';
+/*
+  All _scss partials need to be included in this file
+*/
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus, *:active{
+  outline: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background:$primaryBackground;
+  // color:#fff;
+  box-sizing: border-box;
+  min-height: 100vh;
+  height: auto;
+  background: #efefef;
+
+  .section-header{
+    color: #607D8B;
+    font-size: 18px;
+    font-variant: small-caps;
+    margin-bottom: 10px; 
+    padding-left: 10vw;
+  }
+}

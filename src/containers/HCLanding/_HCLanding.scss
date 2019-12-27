@@ -1,0 +1,52 @@
+.work-box{
+  height: 300px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(96, 125, 139, 0.5);
+  >div:first-of-type{
+    padding-left: 10%;
+    color: #607D8B;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .step-box{
+    width: 80%;
+    margin: auto;
+    min-width: 800px;
+    display: flex;
+    .work-step{
+      width: 33%;
+      padding: 0 20px;
+      text-align: center;
+      img{
+        height: 100px;
+      }
+      >div:first-of-type{
+        margin: 10px 0;
+        color: #4CAF50;
+      }
+      >div:last-of-type{
+        font-size: 12px;
+        color: #607D8B;
+      }
+    }
+  }
+}
+
+.contact{
+  background: #333;
+  min-height: 100px;
+}
+
+.intro-box{
+  height: 300px;
+  background: url(//img1.wsimg.com/isteam/stock/kZYrAWG/:/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us{
+  height: 500px;
+}

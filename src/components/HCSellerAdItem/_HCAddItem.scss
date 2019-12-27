@@ -1,0 +1,129 @@
+.hc-seller-ad-item{
+  background: #fff;
+  min-height: 220px;
+  box-shadow: 0 0px 5px #ccc;
+  margin-bottom: 5px;
+  padding: 20px 10vw;
+  display: flex;
+  .ad-image{
+    height: 220px;
+    img{
+      height: 100%;
+      box-shadow: 3px 3px 8px #607D8B;
+    }
+  }
+  .ad-description{
+    padding: 0 30px;
+    .ad-title{
+      font-size: 22px;
+      color: #607D8B;
+      position: relative;
+    }
+    .ad-comments{
+      margin-top: 10px;
+      font-size: 13px;
+      margin-bottom: 10px;
+      color: #9a9a9a;
+    }
+    .feature-box{
+      display: flex;
+      .feature-grid{
+        width: auto;
+        text-align: center;
+        display: flex;
+        margin-right: 20px;
+        >div:first-of-type{
+          height: 60px;
+          position: relative;
+          line-height: 85px;
+        }
+        div{
+          font-size: 10px;
+          color: #607D8B;
+        }
+        .tile{
+          padding-left: 5px;
+          div:first-of-type{
+            height: 25px;
+            line-height: 35px;
+            color: #009688;
+          }
+          div:last-of-type{
+            // height: 35px;
+            line-height: 15px;
+            font-size: 12px;
+            font-weight: 600;
+          }
+        }
+        img{
+          width: 45px;
+        }
+      }
+    }
+    .posted-on{
+      font-size: 13px;
+      color: #607D8B;
+      display: flex;
+      margin-top: 5px;
+      img{
+        height: 15px;
+        margin-right: 5px;
+      }
+      span:last-of-type{
+        margin-left: 5px;
+        font-weight: 700;
+      }
+    }
+    .pricing{
+      display: flex;
+      img{
+        height: 25px;
+      }
+      span{
+        font-size: 20px;
+        display: inline-block;
+        margin-top: 3px;
+        margin-left: 8px;
+        font-weight: 500;
+        color: #415661;
+      }
+    }
+    .location{
+      display: flex;
+      margin-top: 5px;
+      img{
+        height: 18px;
+      }
+      span{
+        font-size: 14px;
+        display: inline-block;
+        margin-left: 5px;
+        font-weight: 500;
+        color: #415661;
+      }
+    }
+    .actions{
+      position: absolute;
+      right: 0;
+      opacity: 0;
+      transition: 200ms all linear;
+      top: 5px;
+      font-size: 12px;
+      display: flex;
+      div{
+        margin-left: 10px;
+        display: flex;
+        img{
+          height: 14px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  &:hover{
+    .actions{
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+}

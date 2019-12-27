@@ -1,0 +1,144 @@
+.post-ad-container{
+  width: 460px;
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-230px);
+  min-height: 500px;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 3px 3px 10px #222;
+  z-index: 10;
+  .post-header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 8px solid #bada55;
+    padding-left: 15px;
+    font-size: 22px;
+    font-variant: small-caps;
+    background: #255a73;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: center;
+    .close{
+      right: 15px;
+      top: -20px;
+      position: absolute;
+      color: #fff;
+      font-size: 18px;
+      opacity: 0;
+      transition: 100ms opacity linear; 
+    }
+    img{
+      height: 40px;
+      margin-right: 15px;
+    }
+  }
+  &:hover{
+    .close{
+      opacity: 1;
+    }
+  }
+  .one-col{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom:20px;
+    input{
+      width: 100%;
+      height: 35px;
+      border: none;
+      border-bottom: 1px solid #009688;
+      font-size: 13px;
+      &:focus{
+        + span{
+          font-size: 11px;
+          top: -10px;
+          color: #009688;
+          font-weight: 600;
+        }
+      }
+    }
+    textarea{
+      width: 100%;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #009688;
+      font-size: 13px;
+      resize: none;
+      padding: 10px 5px;
+      &:focus{
+        + span{
+          font-size: 11px;
+          top: -10px;
+          color: #009688;
+          font-weight: 600;
+        }
+      }
+    }
+    > span {
+      font-size: 15px;
+      position: absolute;
+      color:#999;
+      top: 10px;
+      left:0;
+      transition: 250ms all ease-in;
+    }
+  }
+  .two-cols{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:20px;
+    >div{
+      width: 50%;
+      position: relative;
+      input{
+        width: 95%;
+        height: 35px;
+        border: none;
+        border-bottom: 1px solid #009688;
+        font-size: 13px;
+        &:focus{
+          + span{
+            font-size: 11px;
+            top: -10px;
+            color: #009688;
+            font-weight: 600;
+          }
+        }
+      }
+      > span {
+        font-size: 15px;
+        position: absolute;
+        color:#999;
+        top: 10px;
+        left:0;
+        transition: 250ms all ease-in;
+      }
+      &:last-of-type{
+        input{
+          width: 100%;
+        }
+      }
+    }
+  }
+  >div:last-of-type{
+    padding: 20px 30px;
+  }
+  button{
+    border: none;
+    color: #fff;
+    background: #009688;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    box-shadow: 0 0 3px #d6d6d6;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+}

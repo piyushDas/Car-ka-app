@@ -1,0 +1,13 @@
+.buyers-view{
+  display: flex;
+  .buyer-filter{
+    width: 35%;
+  }
+  .buyer-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+  }
+}

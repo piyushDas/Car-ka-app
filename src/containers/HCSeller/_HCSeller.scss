@@ -1,0 +1,26 @@
+.empty-list{
+  background: #fff;
+	box-shadow: 0 0 5px #607d8b63;
+	text-align: center;
+	padding: 20px 10vw;
+	img{
+		height: 200px;
+		margin: 0 0 15px;
+	}
+	.empty-message{
+		width: 400px;
+    margin: auto;
+    color: #80a8bb;
+    font-size: 14px;
+	}
+	.empty-message-header{
+		font-size: 22px;
+    margin: 10px 0;
+    color: #607D8B;
+    font-weight: 500;
+	}
+	hr{
+		width: 30px;
+    border: 2px solid #bada55;
+	}
+}

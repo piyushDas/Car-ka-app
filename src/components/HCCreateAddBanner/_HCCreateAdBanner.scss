@@ -1,0 +1,42 @@
+.hc-ad-banner{
+  background: #fff;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 30px 10vw;
+  min-height: 220px;
+  display: flex;
+  .ad-banner-image{
+    width: 40%;
+    text-align: center;
+    padding: 20px 0;
+    img{
+      height: 125px;
+    }
+  }
+  .ad-banner-content{
+    width: 60%;
+    text-align: center;
+    border-right: 1px solid #d7d7d7;
+    div:first-of-type{
+      font-size: 24px;
+      color: #009688;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .ad-banner-message{
+      width: 70%;
+      margin: 20px auto;
+      color: #607D8B;
+      font-size: 14px;
+    }
+    button{
+      color: #fff;
+      background: #009688;
+      font-size: 13px;
+      box-shadow: 0 0 3px #d6d6d6;
+      border-radius: 2px;
+      font-weight: 600;
+      padding: 5px 20px;
+    }
+  }
+}
